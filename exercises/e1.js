@@ -16,6 +16,12 @@
 // Your code goes here
 
 
+function logMessage () {
+
+  console.log ('Hello, World!');
+}
+
+
 
 
 /**
@@ -32,6 +38,15 @@
 // Your code goes here...
 
 
+const someVal = 'I log my first message';
+
+function logMyMessage (someVal) {
+  console.log(someVal);
+}
+
+
+
+
 
 
 /**
@@ -46,7 +61,9 @@
 
 // Your code goes here...
 
-
+function logMessageWithMyName(myName){
+  console.log('My name is ' + myName + '!');
+}
 
 
 /**
@@ -62,6 +79,9 @@
 
 // Your code goes here...
 
+function logMyInfo (myName, myAge) {
+  console.log('My name is '+ myName + '. I am ' + myAge + ' years old!');
+}
 
 
 
